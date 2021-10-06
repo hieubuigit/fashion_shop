@@ -1,0 +1,64 @@
+/*--------- Login admin page ----------*/
+body {
+    font-family: "Source Sans Pro", sans-serif !important;
+    background-image: url(../../../uploads/global/login.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form {
+    width: 375px;
+    border: solid 1px #fff;
+    box-shadow: 0 0 15px #000;
+    margin: auto;
+    padding: 35px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#login-form h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 2.3em;
+}
+
+.btn-login {
+    background-image: linear-gradient(315deg, #000 0%, #414141 74%);
+    width: 100%;
+    border-radius: 20px;
+}
+
+.not-robot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-robot input {
+    margin-right: 10px;
+}
+
+.form-group label {
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.form-group input {
+    font-size: 0.97rem;
+}
+
+.error {
+    color: #ff3838;
+    font-size: 0.95em;
+    text-align: center;
+}
